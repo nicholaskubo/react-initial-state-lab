@@ -7,7 +7,7 @@ state = {
 }
 
 render(){
-    return `I am on slide ${this.state.currentSlideIndex}`
+    return ""
 }
 
 }

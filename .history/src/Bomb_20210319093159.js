@@ -3,14 +3,14 @@ import React from "react";
 class Bomb extends React.Component {
 
     state={
-        secondsLeft:this.props.initialCount
+        secondsLeft:props.initialCount
     }
 
     
     render(){
         const text = this.state.secondsLeft === 0 ? 'Boom!' : `${this.state.secondsLeft} seconds left before I go boom!`;
         return(
-            <div>{text}</div>
+            <div> {text} </div>
         )
     }
 } 
